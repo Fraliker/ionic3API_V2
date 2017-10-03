@@ -1,0 +1,185 @@
+page-item {
+  ion-label {
+    white-space: normal;
+  }
+  .heading {
+    font-size: 15px;
+    font-weight: 700;
+    color: $grey;
+  }
+  .item-md ion-thumbnail img {
+    height: 5em;
+    width: 5em;
+  }
+
+  .title{
+    margin:0 auto;
+    font-family: "notoR";
+    margin:0 auto;
+    text-align:justify;
+    color:white;
+    font-size:3.3vh;
+    padding-left:30% !important;
+    
+  }
+
+ion-navbar.toolbar{
+  min-height: 48px !important;
+  padding-right: 10px;
+}
+
+
+.search{
+  width:7%;
+  margin-right:10px;
+}
+
+
+  .md .search{
+    width: 7%;
+  } 
+
+  .ios .search{
+      width:7%;
+  }
+
+  .card-title {
+    font-family: "notoR";
+    position: absolute;
+    top: 19.4%;
+    width: 100%;
+    font-weight: bold;
+    color:white;
+    left: 21.5px;
+  }
+
+  .card-floor{
+    font-size: 13pt;
+    margin-top:0;
+    margin-bottom:3px;
+    padding: 0;
+
+  }
+
+  .card-name{
+    font-size: 20pt;
+    padding: 0;
+    margin:0;
+    line-height: 1.1;
+  }
+
+  .img{
+    border-bottom:solid 1.2px #1C49AD !important;
+  }
+
+  .card-img {
+    height: 227px;
+    //position: relative;
+    padding:0px;
+    margin:0 auto !important;
+    width: auto;
+    display: block !important;
+  }
+
+  .name{
+      font-family:"notoR";
+      color:#1C49AD;
+      font-size: 14pt;
+      padding-left : 20px;
+  }
+
+  .section{
+    font-family: "notoR";
+    color: #1C49AD;
+    font-weight:bold;
+    font-size: 15pt;
+    padding-top:10px;
+    padding-bottom:20px;
+    padding-left:20px;
+    border-bottom:solid 1.2px #1C49AD !important;
+    margin-top:10px;
+    margin-bottom:0px;
+
+  }
+
+.img-container{
+  width: 85px;
+  height: 65px;
+}
+
+ion-thumbnail{
+    display: block;
+    // height: auto !important;
+    // min-width: 85px !important;
+    // max-height:55px !important;
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+    margin-right: 3px !important;
+    max-width: 100% !important;    
+    max-height: 100% !important;
+    image-orientation: from-image !important;      
+    
+    img {
+        image-orientation: from-image !important;      
+        max-width: 100% !important;    
+        max-height: 100% !important;
+    }
+
+}
+
+  .item-inner{
+    height: 75px !important;
+  }
+
+  button.item.item-block{
+      border-bottom:solid 1.2px #1C49AD !important;
+      padding-left:5px;
+      height: 75px !important;
+  }
+
+.input-wrapper{
+    font-family:"notoR";
+    padding-top: 0px;
+    padding-bottom:0px;
+    padding-left:13pt;
+    font-size: 15pt;
+    color: #1C49AD;
+    border-left: solid 1.2px #1C49AD;
+}
+  .scroll-content{
+      padding-left:0px !important;
+      padding-right:0px !important;
+      padding-top: 0px !important;
+  }
+
+  .details{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family : "notoR";
+    border-bottom: solid 1.5px #1C49AD;
+    text-align : justify;
+    font-size: 11pt;
+  }
+
+  .play-button{
+    background-color: #1C49AD;
+    display:inline-block;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    height: 34px;
+    // width : 15px !important;
+  }
+  .item-name{
+    font-family: "notoR";
+    padding-top: 10px;
+    padding-left : 20px;
+    padding-right: 12px;    
+    font-size : 16pt;
+    color: #1C49AD;
+    margin : 0 auto !important;
+    display: inline-block;
+  }
+}

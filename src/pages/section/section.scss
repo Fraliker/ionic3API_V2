@@ -1,0 +1,99 @@
+page-section {
+.title{
+    margin:0 auto;
+    font-family: "notoR";
+    margin:0 auto;
+    text-align:justify;
+    color:white;
+    font-size:3.3vh;
+    padding-left:30% !important;
+    
+  }
+
+ion-navbar.toolbar{
+  min-height: 48px !important;
+  padding-right: 10px;
+}
+
+
+.search{
+  width:7%;
+  margin-right:10px;
+}
+
+
+ .md .search{
+      width: 7%;
+ } 
+
+  .ios .search{
+      width:7%;
+  }
+
+  .section{
+      font-family: "notoR";
+      color: #1C49AD;
+      font-weight:bold;
+      font-size: 15pt;
+      padding-top:10px;
+      padding-bottom:20px;
+      padding-left: 16px;
+      border-bottom:solid 2.0px #1C49AD !important;
+      margin-top:10px;
+      margin-bottom:0px;
+
+  }
+
+.img-container{
+  width: 85px;
+  height: 65px;
+}
+
+ion-thumbnail{
+    display: block;
+    // height: auto !important;
+    // min-width: 85px !important;
+    // max-height:55px !important;
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+    margin-right: 3px !important;
+    max-width: 100% !important;    
+    max-height: 100% !important;
+    image-orientation: initial !important;      
+    
+    img {
+        image-orientation : initial !important;      
+        max-width: 100% !important;    
+        max-height: 100% !important;
+    }
+
+}
+
+.item-inner{
+  height: 75px !important;
+}
+
+  button.item.item-block{
+    border-bottom:solid 1.2px #1C49AD !important;
+    padding-left:5px;
+    height: 75px !important;
+  }
+
+  .input-wrapper{
+    font-family:"notoR";
+    padding-top: 0px;
+    padding-bottom:0px;
+    padding-left:13pt;
+    font-size: 15pt;
+    color: #1C49AD;
+    border-left: solid 1.2px #1C49AD;
+}
+
+
+  .scroll-content{
+      padding-left:0px !important;
+      padding-right:0px !important;
+      padding-top: 0px !important;
+  }
+
+}
